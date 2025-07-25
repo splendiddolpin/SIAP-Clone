@@ -1,0 +1,30 @@
+SELECT k.kodekar_hrf, a.kodekar_ang, p.nama_pasien, a.no_ruangan, r.nama_ruangan 
+	FROM antrian a, ruangan r, karyawan k, pasien p
+	WHERE a.no_ruangan = r.no_ruangan
+	AND a.kodepas_ang = p.kodepas_ang
+	AND a.kodekar_ang = k.kodekar_ang
+	AND tanggal > SYSDATETIME();
+
+SELECT nama_mhs, irs.NIM AS nim, angkatan, smt, jml_sks, validasi FROM
+mahasiswa, irs
+WHERE mahasiswa.NIM = irs.NIM
+
+7
+24
+NULL
+aktif
+
+UPDATE irs SET NIM='24060120140001', smt='1', jml_sks='21', status='aktif', validasi='Belum Divalidasi'
+WHERE smt='1';
+UPDATE irs SET NIM='24060120140001', smt='2', jml_sks='24', status='aktif', validasi='Belum Divalidasi'
+WHERE smt='2';
+UPDATE irs SET NIM='24060120140001', smt='3', jml_sks='24', status='aktif', validasi='Belum Divalidasi'
+WHERE smt='3';
+UPDATE irs SET NIM='24060120140001', smt='4', jml_sks='24', status='aktif', validasi='Belum Divalidasi'
+WHERE smt='4';
+UPDATE irs SET NIM='24060120140001', smt='5', jml_sks='24', status='aktif', validasi='Belum Divalidasi'
+WHERE smt='5';
+UPDATE irs SET NIM='24060120140001', smt='6', jml_sks='24', status='aktif', validasi='Belum Divalidasi'
+WHERE smt='6';
+UPDATE irs SET NIM='24060120140001', smt='7', jml_sks='24', status='aktif', validasi='Belum Divalidasi'
+WHERE smt='7';
