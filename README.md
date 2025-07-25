@@ -26,3 +26,16 @@
 - Bootstrap (optional)
 
 ---
+
+## 📄 Documentation
+
+- [Download Testing Document](Testing.docx)
+
+## 📷 Screenshots ( Wireframe )
+
+### Login Page
+![Dosen Page](SS/wop.jpg)
+
+### Dashboard
+![Mahasiswa Page](SS/wm.jpg)
+
