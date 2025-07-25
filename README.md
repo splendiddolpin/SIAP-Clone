@@ -34,8 +34,8 @@
 ## 📷 Screenshots ( Wireframe )
 
 ### Login Page
-![Dosen Page](assets/img/PPL/wop.jpg)
+![Dosen Page](SS/wop.jpg)
 
 ### Dashboard
-![Mahasiswa Page](assets/img/PPL/wm.jpg)
+![Mahasiswa Page](SS/wm.jpg)
 
